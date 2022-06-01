@@ -4,7 +4,7 @@ Connect to your servers via gnome shell extension using [Argos](https://github.c
 This script produces a list of all servers inside the SSH config files.
 It also searches for any `Include` lines inside your `~/.ssh/config` file and group the servers based on the config file they are in.
 
-![Example](url "sshclickconnect-example.png")
+![Screenshot](sshclickconnect-example.png)
 
 ## Installation
 run `setup.sh`
