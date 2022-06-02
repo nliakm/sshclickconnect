@@ -2,7 +2,7 @@
 
 set -e
 
-# Clone repository
+# Update/Clone argos repository
 if [[ -d "/home/$(whoami)/.local/share/gnome-shell/extensions/argos/argos@pew.worldwidemann.com" ]]; then
   cd "/home/$(whoami)/.local/share/gnome-shell/extensions/argos/argos@pew.worldwidemann.com"
   git fetch origin master
